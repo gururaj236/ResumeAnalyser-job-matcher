@@ -1,15 +1,19 @@
 package com.ResumeAnalyser.resume.Service;
 
 import java.util.List;
+
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.ResumeAnalyser.resume.Model.JobPosting;
 import com.ResumeAnalyser.resume.Request.DTO.JobDTO;
 import com.ResumeAnalyser.resume.repository.JobRepository;
 
+
+@Service
 public class JobService implements JobInterface {
 	
 
